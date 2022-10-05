@@ -26,7 +26,12 @@ npx sequelize-cli db:migrate
 npx sequelize-cli db:seed:all
 ```
 
-Volver a la carpeta principal con cd .. y ejecutar el comando
+Volver a la carpeta principal con cd .. 
+``` bash
+cd ..
+```
+
+y ejecutar el comando
 
 ``` bash
 npm test
