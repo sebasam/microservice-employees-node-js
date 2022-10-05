@@ -19,6 +19,35 @@ const createDepartment = async(req, res, next) => {
     }
 }
 
+const getDepartments = async(req, res, next) => {
+    try {
+        const list = await Departamento.findAll()
+        return res.status(200).json({
+            msg: 'Departments',
+            list
+        })
+    } catch (error) {
+        next(error)
+    }
+}
+
+const deleteDepartment = async(req, res, next) => {
+    const { id } = req.params
+    try {
+        const deleted = await Departamento.destroy({ where: { id } })
+        if(!deleted) return res.status(404).json({
+            msg: 'Not found any department'
+        })
+        return res.status(200).json({
+            msg: 'department has been deleted!'
+        })
+    } catch (error) {
+        next(error)
+    }
+}
+
 module.exports = {
-    createDepartment
+    createDepartment,
+    getDepartments,
+    deleteDepartment
 }
