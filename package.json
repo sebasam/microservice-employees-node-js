@@ -1,0 +1,19 @@
+{
+  "name": "prueba-cobrando-bpo",
+  "version": "1.0.0",
+  "description": "App Employees NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebasam/microservice-employees-node-js.git"
+  },
+  "author": "Juan Sebastian Amaya Serrano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebasam/microservice-employees-node-js/issues"
+  },
+  "homepage": "https://github.com/sebasam/microservice-employees-node-js#readme"
+}
