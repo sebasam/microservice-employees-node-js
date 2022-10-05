@@ -22,5 +22,6 @@ module.exports = (sequelize, DataTypes) => {
     modelName: 'Departamento',
     paranoid: true
   });
+  
   return Departamento;
 };
