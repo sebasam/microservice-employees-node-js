@@ -13,6 +13,8 @@ clave: Clave1234
 ```
 git clone https://github.com/sebasam/microservice-employees-node-js.git
 
+cd microservice-employees-node-js
+
 npm i
 ```
 
