@@ -78,3 +78,5 @@ Para los Empleados se utilizarán los siguientes endpoints:
 * UPDATE /api/employees/update/:id Actualiza un empleado por su ID sí existe, se pueden actualizar los campos nif y codigo_departamento.
 
 Para la persistencia de la base de datos, se implementó softDelete.
+
+En la carpeta de collections se encuentran los endpoints de POSTMAN debidamente documentados para su uso respectivo.
