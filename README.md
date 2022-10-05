@@ -1,5 +1,13 @@
 # microservice-employees-node-js
 
+Elaborar un microservicio para la tabla empleados el cual sea capaz de Insertar, actualizar, borrar y consultar CRUD, los puertos por defecto, usuario, clave y nombre de la base de datos son:
+
+PORT=1234
+database_port=5432
+databasename= employees
+datauser: postgres
+clave: Clave1234
+
 ## Instalación
 
 ```
