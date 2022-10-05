@@ -4,7 +4,7 @@
   "description": "App Employees NodeJs",
   "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    "test": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/sebasam/microservice-employees-node-js/issues"
   },
-  "homepage": "https://github.com/sebasam/microservice-employees-node-js#readme"
+  "homepage": "https://github.com/sebasam/microservice-employees-node-js#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sequelize-cli": "^6.5.1"
+  }
 }
