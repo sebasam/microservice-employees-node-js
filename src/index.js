@@ -1,11 +1,9 @@
 const express = require('express')
 const app = express()
-const dotenv = require('dotenv')
 const sequelize = require('./db/config')
 const api = require('./routes/api.routes')
 
-dotenv.config()
-const port = process.env.PORT
+const port = 1234
 
 app.use( express.json() )
 app.use(express.urlencoded({ extended: false }));
